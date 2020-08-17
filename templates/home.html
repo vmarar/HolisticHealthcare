@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HOME AND NAVIGATION PAGE</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/main.css') }}">
+</head>
+<body>
+<header>
+<div class="container">
+    <h1 class="logo">Navigation Page</h1>
+    <body>
+    <strong>
+        <nav>
+            <ul class="menu">
+                <li><a href="{{ url_for('patient_login') }}">Patient Login</a></li>
+                <li><a href="{{ url_for('Patient_Register') }}">Patient Register</a></li>
+                <li><a href="{{ url_for('ORG_login') }}">Org Login</a></li>
+                <li><a href="{{ url_for('Org_Register') }}">Org Register</a></li>
+            </ul>
+        </nav>
+    </strong>
+    </body>
+</h1>
+</div>
+</header>
+</body>
+</html>

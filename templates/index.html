@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Created by Vaishali Marar</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="{{ url_for('static', filename='assets/css/main.css') }}">
+	</head>
+	<body>
+
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href="index.html" class="logo"><strong>Created</strong> by Vaishali Marar</a>
+					<nav id="nav">
+						<a href="index.html">Home</a>
+						<a href="generic.html">Generic</a>
+						<a href="elements.html">Elements</a>
+					</nav>
+					<a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+				</div>
+			</header>
+
+		<!-- Banner -->
+			<section id="banner">
+				<div class="inner">
+					<header>
+						<h1>Welcome to Holistic Healthcare</h1>
+					</header>
+
+					<div class="flex ">
+
+						<div>
+							<h3>Patients</h3>
+							<p>See your care and </p>
+							<p>access your providers.</p>
+						</div>
+
+						<div>
+							<h3>Organizations</h3>
+							<p>Manage your members and patients.</p>
+						</div>
+
+						<div>
+							<h3>Healthcare Professionals</h3>
+							<p>Access your patients</p>
+							<p>and manage them anywhere</p>
+						</div>
+
+					</div>
+
+					<footer>
+						<li><a href="{{ url_for('nav_page') }}", class='button'>Navigation Page</a></li>
+					</footer>
+				</div>
+			</section>
+
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+
+					<h3>Purpose</h3>
+                        <p> I always felt that health-care had outdated forms of communication, between
+							different specialities and different providers and between providers and patients as well.
+							This proved as a interesting project for myself.
+							I wanted to work on a project that showcases my skills while tackling
+							a problem many have thought about. The goal here is to allow
+							Patients to have a single point of access for various health-care providers
+							and specialties. Allowing those that frequent doctors to be able to keep track
+							of all communications, prescriptions, and contact information of their many providers.
+
+							Similary health-care Organizations and providers can gain a Holistic
+							overview of their patients, having access to all of their health-care information.
+							Rendering medical record faxes and secure transfers obsolete.
+
+							Health-care should be Holistic, thanks for reading!
+						</p>
+
+
+					<div class="copyright">
+						&copy; Untitled. Creator: Github @vmarar
+					</div>
+
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

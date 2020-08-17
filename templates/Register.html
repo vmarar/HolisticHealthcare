@@ -1,0 +1,38 @@
+<div class="container">
+	<title>Organization Registration</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/main.css') }}">
+		<h1>Organization Registration</h1>
+		<form action="" method="POST">
+			<div class="form-group">
+				<input type="text" name="Organization Name" class="form-control" placeholder="Organization Name" required>
+			</div>
+			<div class="select-wrapper">
+				<select name="Organization Speciality" id="Organization-speciality">
+					<option value="">-Organization Speciality-</option>
+					<option value="Dermatology">Dermatology</option>
+					<option value="Endocrinologist">Endocrinologist</option>
+					<option value="OB/GYN">OB/GYN</option>
+					<option value="Cardiologist">Cardiologist</option>
+					<option value="Primary Physician">Primary Physician</option>
+					<option value="Psychiatry">Psychiatry</option>
+					<option value="Dentistry">Dentistry</option>
+				</select>
+			</div>
+			<div class="form-group">
+				<input type="text" name="Email" class="form-control" placeholder="Email" required>
+			</div>
+			<div class="form-group">
+				<input type="text" name="username" class="form-control" placeholder="Username" required>
+			</div>
+			<div class="form-group">
+				<input type="password" name="password" class="form-control" placeholder="Password" required>
+			</div>
+			<div class="form-group">
+				<input type="password" name="confirm" class="form-control" placeholder="Confirm Password" required>
+			</div>
+			<button class="btn btn-primary" type="submit">Register My Organization</button>
+
+
+		</form>
+
+	</div>
